@@ -1,0 +1,9 @@
+<!-- res/menu/menu_image.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_open_camera"
+        android:title="Open Camera"
+        android:icon="@android:drawable/ic_menu_camera"
+        app:showAsAction="always" />
+</menu>

@@ -1,0 +1,16 @@
+<!-- res/menu/menu_camera.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_pick_image"
+        android:title="Pick Image"
+        android:icon="@drawable/baseline_image_24"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_toggle_flash"
+        android:title="Toggle Flashlight"
+        android:icon="@drawable/baseline_flash_on_24"
+        app:showAsAction="always" />
+</menu>

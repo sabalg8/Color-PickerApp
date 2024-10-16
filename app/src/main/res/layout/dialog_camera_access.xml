@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Camera access required"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Real-time color recognition from the camera is the main app feature.\n\nPlease grant access to the camera to take advantage of all features.\n\nTip: image can be sent from any app through the system 'Share' dialog directly to the Color Picker."
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btn_grant_camera_access"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GRANT ACCESS TO CAMERA"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btn_open_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OPEN IMAGE"
+        android:layout_marginTop="8dp" />
+</LinearLayout>

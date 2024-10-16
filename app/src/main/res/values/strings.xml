@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Color Pick</string>
+    <string name="camera_activity_label">NewCameraActivity</string>
+</resources>
